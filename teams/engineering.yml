@@ -42,4 +42,3 @@ software:
   packages:
     - path: ../lib/windows/software/cloudflare-warp.yml
     - path: ../lib/macos/software/zoom.yml
-      setup_experience: true
