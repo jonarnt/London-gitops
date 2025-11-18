@@ -11,6 +11,7 @@ name: Engineering
 policies:
   - path: ../lib/macos/policies/macos-device-health.policies.yml
   - path: ../lib/linux/policies/linux-device-health.policies.yml
+  - path: ../lib/macos/policies/dns-resolvers.policies.yml
 queries:
   - path: ../lib/all/queries/collect-failed-login-attempts.queries.yml
 agent_options:
@@ -30,6 +31,7 @@ controls:
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/windows/scripts/set-wallpaper.ps1
+    - path: ../lib/macos/scripts/set-dns-cloudflare.sh
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
