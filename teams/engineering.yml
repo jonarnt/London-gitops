@@ -22,6 +22,7 @@ controls:
       minimum_version: "26.0"
     custom_settings:
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+      - path: ..//lib/macos/configuration-profiles/passcode-settings-ddm.json
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
 team_settings:
